@@ -22,4 +22,6 @@ The tests in this project include:
 ***
 ### Notes:
 * The tests use a fixture called container to start a Docker container in the background with the reverse_string_api image and the 5000 port.
-* The tests use a fixture called global_value to store global values that are used throughout the tests, such as the base URL of the API and error messages.
+* The tests use a fixture called global_value to store global values that are used throughout the tests, such as the base URL of the API and error 
+messages.
+* For this application to be scalable the state should be save in DB and not locally 
