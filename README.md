@@ -16,7 +16,7 @@ This project contains tests for the reverse string API. It uses the Pytest frame
 
 The tests in this project include:
 
-1. test_reverse_sainty: This test sends a request to the /reverse endpoint with a string of 3 randomly chosen words. This test is run 5 times with different random strings.
+1. test_reverse_sanity: This test sends a request to the /reverse endpoint with a string of 3 randomly chosen words. This test is run 5 times with different random strings.
 2. test_reverse_negative: This test sends a request to the /reverse endpoint with a string of one word.
 3. test_restore: This test sends a request to the /reverse endpoint with a string of 3 randomly chosen words. It then sends a request to the /restore endpoint. It checks that the response from the /reverse endpoint is equal to the response from the /restore endpoint, indicating that the reversal and restoration processes were successful.
 ***

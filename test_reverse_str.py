@@ -35,7 +35,7 @@ def global_value():
 class TestReverseApi:
 
     @pytest.mark.parametrize('execution_number', range(5))
-    def test_reverse_sainty(self, container, execution_number, global_value, record_property):
+    def test_reverse_sanity(self, container, execution_number, global_value, record_property):
         """Test the reverse endpoint of an API for sainty.
         Args: 
             self (object): The object itself.
